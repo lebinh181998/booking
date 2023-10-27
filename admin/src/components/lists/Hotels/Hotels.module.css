@@ -1,0 +1,68 @@
+.hotels {
+  width: 100%;
+  text-align: center;
+  padding: 24px;
+}
+.hotels .addnew {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+.hotels .addnew button {
+  border: 1px solid #00760c;
+  padding: 4px;
+  color: #00760c;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.hotels h2 {
+  text-align: left;
+  margin-bottom: 24px;
+  color: #ccc;
+  margin-bottom: 0;
+}
+.hotels table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.hotels table tr {
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.hotels table tr th:first-child {
+  width: auto;
+}
+.hotels table tr th,
+.hotels table tr td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+}
+.hotels table tr td,
+.hotels table tr th:first-child,
+.hotels table tr th:last-child {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.hotels table tr th p {
+  padding: 0 12px;
+  text-wrap: nowrap;
+  margin-bottom: 0;
+  border-left: 1px solid #ccc;
+}
+.hotels table tr th:last-child p {
+  border-right: 1px solid #ccc;
+}
+.hotels table tr:last-child {
+  border-bottom: 0;
+}
+.hotels table tbody tr td button {
+  color: #ff0000;
+  padding: 4px;
+  font-size: 16px;
+  border: 1px dashed #ff0000;
+  border-radius: 6px;
+  background-color: #fff;
+}

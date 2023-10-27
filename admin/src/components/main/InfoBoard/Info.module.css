@@ -1,0 +1,17 @@
+.info {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+.info p {
+  margin: 0;
+}
+.info .title {
+  font-weight: 500;
+  color: #bebebe;
+}
+.info .icon {
+  font-size: 12px;
+}

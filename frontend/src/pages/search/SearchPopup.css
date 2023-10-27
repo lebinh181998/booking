@@ -1,0 +1,44 @@
+.search-popup {
+  background-color: #ffbb00;
+  border-radius: 12px;
+  padding: 12px;
+}
+.search-popup h2 {
+  color: #4e4e4e;
+}
+.search-popup form .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+.search-popup form .form-group input {
+  width: 100%;
+  border: none;
+  height: 50px;
+  font-size: 16px;
+  padding: 8px;
+  outline: none;
+}
+.search-popup form .form-group .option {
+  display: flex;
+  margin-bottom: 12px;
+}
+.search-popup form .form-group .option label {
+  display: inline-block;
+  color: #4e4e4e;
+  margin: auto;
+  margin-left: 0;
+}
+.search-popup form .form-group .option input {
+  width: 60px;
+  height: 30px;
+  margin-left: auto;
+}
+.search-popup form .form-group:last-child input {
+  background-color: #3e6eff;
+  color: #fff;
+}
+.date-text {
+  background-color: #fff;
+  padding: 8px 4px;
+}

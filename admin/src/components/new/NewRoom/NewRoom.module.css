@@ -1,0 +1,66 @@
+.new-room {
+  padding: 24px;
+}
+.new-room h2 {
+  color: #ccc;
+  padding: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+.new-room form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 24px;
+  padding: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 24px;
+}
+.new-room form div:last-child {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.new-room form div:last-child button {
+  border: 0;
+  background-color: #009b74;
+  color: #fff;
+  padding: 4px 72px;
+}
+.new-room form div label {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.new-room form div input,
+.new-room form div textarea {
+  display: inline-block;
+  width: 100%;
+}
+.new-room form div label {
+  font-weight: bold;
+}
+.new-room form div input {
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  padding: 4px;
+}
+.new-room form div input:focus,
+.new-room form div textarea:focus {
+  outline: none;
+}
+.new-room form div ul {
+  list-style: none;
+  border: 1px solid #000;
+  height: 200px;
+  padding: 0;
+  overflow: auto;
+}
+.new-room form div ul li {
+  padding: 4px;
+}
+.new-room .li-ckecked {
+  background-color: #00b032;
+  color: #fff;
+  border: 1px solid #fff;
+}

@@ -1,0 +1,12 @@
+.type {
+  margin-right: 36px;
+  padding: 12px;
+  cursor: pointer;
+}
+.type i {
+  margin-right: 8px;
+}
+.active {
+  border: 1px solid #fff;
+  border-radius: 24px;
+}

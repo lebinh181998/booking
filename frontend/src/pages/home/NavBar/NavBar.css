@@ -1,0 +1,38 @@
+.navbar {
+  color: #fff;
+  padding: 12px 24px;
+}
+.navbar .title {
+  display: flex;
+}
+.navbar .title .webname a {
+  text-decoration: none;
+  color: #fff;
+}
+.account-container {
+  display: flex;
+  gap: 12px;
+  margin-left: auto;
+}
+.account-container p {
+  margin: auto;
+}
+.account-container a,
+.account-container button {
+  text-decoration: none;
+  background-color: #f1f0f0;
+  color: #002594;
+  padding: 4px 12px;
+  border-radius: 0;
+  font-weight: normal;
+  font-size: 16px;
+}
+.account-container p:first-child {
+  margin-right: 24px;
+}
+.types {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-top: 36px;
+}

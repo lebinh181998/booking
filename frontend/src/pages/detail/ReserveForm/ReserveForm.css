@@ -1,0 +1,27 @@
+.reserve-contianer {
+  padding: 24px;
+}
+.reserve-contianer h3 {
+  margin-bottom: 24px;
+}
+.reserve_date-and-user_info {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 36px;
+}
+.reserve-contianer form .form-group {
+  margin-top: 16px;
+}
+.reserve-contianer form .form-group label,
+.reserve-contianer form .form-group input {
+  width: 100%;
+  margin-top: 8px;
+}
+.reserve-contianer form .form-group input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.reserve-contianer form .form-group input:focus {
+  outline: none;
+}

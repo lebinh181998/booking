@@ -1,0 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.section {
+  background-color: #002594;
+}
+h4.error-text {
+  text-align: center;
+  color: #f00;
+}
+p.error-text {
+  text-align: left;
+  color: #f00;
+}

@@ -1,0 +1,26 @@
+.register-form {
+  text-align: center;
+  padding: 48px 0 36px 0;
+  color: #fff;
+  margin-top: 48px;
+}
+.register-form p {
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+.register-form form input:first-child {
+  width: 300px;
+  border-radius: 4px;
+  padding: 12px;
+  margin-right: 12px;
+  border: none;
+  outline: none;
+}
+.register-form form input:last-child {
+  border-radius: 4px;
+  padding: 12px;
+  background-color: #3e6eff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}

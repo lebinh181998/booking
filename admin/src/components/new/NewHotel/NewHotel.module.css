@@ -1,0 +1,63 @@
+.new-hotel {
+  padding: 24px;
+}
+.new-hotel h2 {
+  color: #ccc;
+  padding: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+.new-hotel form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 60px;
+  row-gap: 24px;
+  padding: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+  margin-top: 24px;
+}
+.new-hotel form div:last-child {
+  grid-column: 1/-1;
+}
+.new-hotel form div:last-child button {
+  border: 0;
+  background-color: #009b74;
+  color: #fff;
+  padding: 4px 72px;
+}
+.new-hotel form div label {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+}
+.new-hotel form div input,
+.new-hotel form div textarea {
+  display: inline-block;
+  width: 100%;
+}
+.new-hotel form div label {
+  font-weight: bold;
+}
+.new-hotel form div input {
+  border: 0;
+  border-bottom: 2px solid #ccc;
+  padding: 4px;
+}
+.new-hotel form div input:focus,
+.new-hotel form div textarea:focus {
+  outline: none;
+}
+.new-hotel form div ul {
+  list-style: none;
+  border: 1px solid #000;
+  height: 200px;
+  padding: 0;
+  overflow: auto;
+}
+.new-hotel form div ul li {
+  padding: 4px;
+}
+.new-hotel .li-ckecked {
+  background-color: #00b032;
+  color: #fff;
+  border: 1px solid #fff;
+}

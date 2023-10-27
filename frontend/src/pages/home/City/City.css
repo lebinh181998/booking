@@ -1,0 +1,22 @@
+.city {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 48px;
+  padding: 0 24px;
+  column-gap: 24px;
+}
+.city .city-item {
+  position: relative;
+}
+.city .city-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.city .city-item .city-subtext {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  color: #fff;
+}

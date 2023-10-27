@@ -1,0 +1,34 @@
+.hotel-list-container {
+  padding: 0 24px;
+  margin-top: 24px;
+}
+.hotel-list {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+  margin-top: 24px;
+}
+.hotel-list .hotel {
+  line-height: 2;
+}
+.hotel-list .hotel img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+.hotel-list .hotel .city-name {
+  font-weight: 300;
+}
+.hotel-list .hotel .hotel-price {
+  font-weight: 600;
+}
+.hotel-list .hotel .hotel-rate {
+  font-size: 14px;
+}
+
+.hotel-list .hotel .hotel-rate span {
+  background-color: #002594;
+  color: #fff;
+  padding: 2px;
+  margin-right: 12px;
+}

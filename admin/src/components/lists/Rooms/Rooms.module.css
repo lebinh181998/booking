@@ -1,0 +1,68 @@
+.rooms {
+  width: 100%;
+  text-align: center;
+  padding: 24px;
+}
+.rooms .addnew {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+}
+.rooms .addnew button {
+  border: 1px solid #00760c;
+  padding: 4px;
+  color: #00760c;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.rooms h2 {
+  text-align: left;
+  margin-bottom: 24px;
+  color: #ccc;
+  margin-bottom: 0;
+}
+.rooms table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.rooms table tr {
+  border: 1px solid #ccc;
+  text-align: left;
+}
+.rooms table tr th:first-child {
+  width: auto;
+}
+.rooms table tr th,
+.rooms table tr td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  /* white-space: nowrap; */
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+}
+.rooms table tr td,
+.rooms table tr th:first-child,
+.rooms table tr th:last-child {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.rooms table tr th p {
+  padding: 0 12px;
+  text-wrap: nowrap;
+  margin-bottom: 0;
+  border-left: 1px solid #ccc;
+}
+.rooms table tr th:last-child p {
+  border-right: 1px solid #ccc;
+}
+.rooms table tr:last-child {
+  border-bottom: 0;
+}
+.rooms table tbody tr td button {
+  color: #ff0000;
+  padding: 4px;
+  font-size: 16px;
+  border: 1px dashed #ff0000;
+  border-radius: 6px;
+  background-color: #fff;
+}

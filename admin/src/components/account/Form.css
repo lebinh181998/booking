@@ -1,0 +1,26 @@
+.sign-form {
+  text-align: center;
+  margin: 60px;
+}
+.sign-form form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: auto;
+  margin-top: 24px;
+  gap: 12px;
+}
+.sign-form form input {
+  padding: 12px 4px;
+}
+.sign-form form input:last-child {
+  padding: 6px 0;
+  background-color: #1b79ab;
+  border-radius: 4px;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.sign-form form input:focus {
+  outline: none;
+}

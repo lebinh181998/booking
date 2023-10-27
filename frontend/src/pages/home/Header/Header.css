@@ -1,0 +1,48 @@
+.header {
+  color: #fff;
+  padding: 48px 24px 60px 24px;
+}
+.header h2 {
+  margin-bottom: 24px;
+}
+.header .sign-in {
+  display: inline-block;
+  background-color: #3e6eff;
+  padding: 12px 8px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.header .search {
+  display: flex;
+  border: 2px solid #ffe600;
+  border-radius: 4px;
+  background-color: #fff;
+  padding: 8px;
+  width: 95%;
+  position: absolute;
+  transform: translate(0, 50%);
+  z-index: 1;
+}
+.header .search .form-input {
+  margin: auto;
+}
+.header .search .form-input label i {
+  color: #ccc;
+  margin-right: 8px;
+}
+.header .search .form-input input {
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+.header .search .form-input:last-child input {
+  background-color: #3e6eff;
+  padding: 8px;
+  color: #fff;
+  cursor: pointer;
+}
+.date {
+  position: absolute;
+  transform: translate(-25%, 0%);
+  top: 100%;
+}
