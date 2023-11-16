@@ -21,4 +21,4 @@ A website used to book rooms in hotels at other cities.
 - Open cmd and find path to project folder.
 - Run "npm install" at `backend`, `frontend` and `admin` folder.
 ## DEPLOYMENT GUIDE
-- Change the url to http://localhost:5000 in a few file and `use-input` file in `hooks` folder.
+- Change the url to http://localhost:5000 in a few file and `use-http` file in `hooks` folder.
